@@ -46,6 +46,22 @@ Merge several feature classes into one GeoJSON file, useful for mixed geometry t
 * `Feature Classes`: the names of the Feature Classes you want to export
 * `Out File`: the name of the output file.
 
+ESRI To Couch
+---------
+Export and upload a feature class to CouchDB:
+
+* `Layer`: The names of the layer you want to export
+* `Couch`: URL of the Couch database you want to upload it to.
+* `Login`: Login information in `user:pw` format, optional, required if you want a design doc put in.
+* `Create DB`: Check if you want the DB to be created, requires login.
+
+ESRI To Gist
+---------
+Export and upload a feature class to gist.github.com as geojson:
+
+* `Layer`: The names of the layer you want to export
+* `Login`: Github login information in the `user:pw` format, optional will otherwise be an anonymous gist.
+* `Description`: Check if you want the DB to be created, requires login.
 License
 -------
 MIT
