@@ -32,3 +32,19 @@ class OpenMultiple(object):
         self.checked = False
     def onClick(self):
         GPToolDialog(toolbox, 'esri2openMulti')
+
+class OpenCouch(object):
+    """Implementation for esriopen_multiple.button (Button)"""
+    def __init__(self):
+        self.enabled = True
+        self.checked = False
+    def onClick(self):
+        GPToolDialog(toolbox, 'esri2couch')
+
+class OpenGist(object):
+    """Implementation for esriopen_multiple.button (Button)"""
+    def __init__(self):
+        self.enabled = True
+        self.checked = False
+    def onClick(self):
+        GPToolDialog(toolbox, 'esri2gist')

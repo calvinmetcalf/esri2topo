@@ -33,6 +33,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         tip="">
           <Help heading="" />
         </Button>
+        <Button caption="Convert and Upload to Couch"
+        category="Esri2Open Add-In" class="OpenCouch"
+        id="esriopenaddin_couch.button" image="" message="Export individual feature classes into a CouchDB."
+        tip="">
+          <Help heading="" />
+        </Button>
+        <Button caption="Convert and Upload as a Gist"
+        category="Esri2Open Add-In" class="OpenGist"
+        id="esriopenaddin_gist.button" image="" message="Export individual feature classes and upload to Gist."
+        tip="">
+          <Help heading="" />
+        </Button>
       </Commands>
       <Extensions></Extensions>
       <Toolbars>
@@ -51,6 +63,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
             <Button refID="esriopenaddin_standard.button" />
             <Button refID="esriopenaddin_merge.button" />
             <Button refID="esriopenaddin_multiple.button" />
+            <Button refID="esriopenaddin_couch.button" />
+            <Button refID="esriopenaddin_gist.button" />
           </Items>
         </Menu>
       </Menus>
