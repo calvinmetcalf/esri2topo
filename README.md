@@ -62,6 +62,7 @@ Export and upload a feature class to gist.github.com as geojson:
 * `Layer`: The names of the layer you want to export
 * `Login`: Github login information in the `user:pw` format, optional will otherwise be an anonymous gist.
 * `Description`: Check if you want the DB to be created, requires login.
+
 License
 -------
 MIT
