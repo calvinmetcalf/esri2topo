@@ -10,14 +10,21 @@ Usage
 
 ESRI To Topo
 ---------
-Output one feature to an open format, arguments are:
+Output one feature to TopoJSON, arguments are:
 
 * `Feature Class`: the name of the Feature Class you want to export
 * `Output File`: the output topojson
 
+ESRI To Topo (merge)
+---------
+Output multiple feature classes to one TopoJSON file, arcs shared by both features will be only stored once:
+
+* `Feature Classes`: the name of the Feature Class you want to export
+* `Output File`: the output topojson
+
 ESRI To Gist
 ---------
-Export and upload a feature class to gist.github.com as geojson:
+Export and upload a feature class to gist.github.com as TopoJSON:
 
 * `Layer`: The names of the layer you want to export
 * `Login`: Github login information in the `user:pw` format, optional will otherwise be an anonymous gist.
