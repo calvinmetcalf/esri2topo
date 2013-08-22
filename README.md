@@ -2,6 +2,8 @@
 
 ##topojson from your arcmap!
 
+Built off [esri2open](https://github.com/project-open-data/esri2open) with the topojson creation from [topojson.py](https://github.com/calvinmetcalf/topojson.py)
+
 Usage
 ------
 1. Copy the .tbx file and the .py file to any local directory
